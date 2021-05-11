@@ -1,0 +1,488 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nav{
+	background: rgba(0,0,0,0.3);
+}
+
+.iconos{
+	grid-template-columns: repeat(4, 1fr);
+ 	gap: 0px;
+ 	display: grid;
+ 	width: 20%;
+ 	float: right;
+}
+
+.bxl-facebook-circle{
+	color: white;
+}
+
+.bxl-instagram{
+	color: white;
+}
+
+.bxl-twitter{
+	color: white;
+}
+
+.bx-phone-call{
+	color: white;
+}
+
+/*---------------------------*/
+
+.bxl-instagram:hover{
+	color: pink;
+}
+
+.bxl-twitter:hover{
+	color:#007AAE ;
+}
+
+.bx-phone-call:hover{
+	color: #085820;
+}
+
+.bxl-facebook-circle:hover{
+	color: #007AAE;
+}
+
+#section-1{
+	width: 100%;
+	height: 700px;
+	grid-template-columns: repeat(1, 1fr);
+ 	gap: 0px;
+ 	display: grid;
+ 	background-image: url("../img/foto-3.png");
+
+ }
+
+.article-inicio{
+	width: 40%;
+	height: 200px;
+	position: relative;
+	top: 150px;
+	left: 200px;
+}
+
+.tecnico{
+	color: white;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.ign{
+	color: white;
+	font-family: Bahnschrift;
+	font-size: 30px;
+}
+
+/*--------------------------------------*/
+
+.SOBRE{
+	width: 100%;
+	height: 200px;
+	background: #090A28;
+	margin: 300px 0px 0px 0px;
+	grid-template-columns: repeat(2, 1fr);
+ 	gap: 0px;
+ 	display: grid;
+}
+
+.foto{
+	width: 150px;
+	border-radius: 10px;
+	margin: -30px 0px 0px 300px;
+}
+
+.tamaños{
+	 width: 60%;
+	 height: 10px;
+	 margin: 0px 0px 0px -200px;
+
+}
+
+.nom{
+	font-size: 20px;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	color: white;
+	margin: 10px;
+}
+
+.desc{
+	font-size: 15px;
+	font-family: Bahnschrift;
+	color: white;
+	margin: 10px;
+	width: 500px;
+}
+
+.boton{
+	font-size: 15px;
+	font-family: Bahnschrift;
+	color: white;
+	margin: 25px 0px 0px 380px;
+	border: solid 2px white;
+	width: 150px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+h3{
+	margin: 7px;
+}
+
+.boton:hover{
+	color: black;
+	background: white;
+}
+
+/*---------------------------------------*/
+.font-size{
+	font-size: 50px;
+	color: white;
+	margin: 70px 0px 0px 120px;
+}
+
+.bxs-map:hover{
+	color: red;
+}
+
+.bxs-contact:hover{
+	color: #808080;
+}
+
+.bxs-image:hover{
+	color: #085820;
+}
+/*--------------------------------*/
+
+.section-2{
+	width: 100%;
+	height: 320px;
+	background: #236E71;
+	margin-top: 30px;
+
+}
+
+.descripcion{
+	grid-template-columns: repeat(4, 1fr);
+ 	gap: 0px;
+ 	display: grid;
+}
+
+.cont-1{
+	height: 300px;
+	width: 80%;
+	margin: 10px 0px 0px 150px;
+	box-shadow: 10px 5px 10px 1px black;
+
+}
+
+.cont-2{
+	height: 300px;
+	width: 80%;
+	margin: 10px 0px 0px 75px;
+	box-shadow: 10px 5px 10px 0px black;
+
+}
+
+.cont-3{
+	height: 300px;
+	width: 80%;
+	margin: 10px 0px 0px 0px;
+	box-shadow: 10px 5px 10px 0px black;
+
+}
+
+.cont-4{
+	height: 300px;
+	width: 80%;
+	margin: 10px 0px 0px -75px;
+	box-shadow: 10px 5px 10px 0px black;
+
+}
+
+.p{
+	color: white;
+	font-family: Bahnschrift;
+	font-size: 15px;
+	margin: 40px 35px 0px 25px;
+}
+
+/*----------------------------*/
+
+footer{
+	width: 100%;
+	height: 25px;
+	background: #339EA2;
+}
+
+.copy{
+	font-family: Bahnschrift;
+	margin: 0px 0px 0px 650px;
+}
+
+.cont-1:hover{
+	background: rgba(0,0,0,0.2);
+}
+
+.cont-3:hover{
+	background: rgba(0,0,0,0.2);
+}
+
+.cont-4:hover{
+	background: rgba(0,0,0,0.2);
+}
+
+.cont-2:hover{
+	background: rgba(0,0,0,0.2);
+}
+
+a{
+	text-decoration: none;
+}
+
+/*----------------------------------------------*/
+@media (max-width: 850px){
+
+.iconos{
+	grid-template-columns: repeat(4, 1fr);
+ 	gap: 15px;
+ 	display: grid;
+ 	width: 20%;
+ 	float: left;
+}
+
+	.section-2{
+	width: 100%;
+	height: 628px;
+	background: #236E71;
+	margin-top: 30px;
+
+}
+	.descripcion{
+		grid-template-columns: repeat(2, 1fr);
+	 	gap: 0px;
+	 	display: grid;
+	}
+
+	.cont-1{
+	height: 300px;
+	width: 80%;
+	margin: 10px 0px 0px 70px;
+	box-shadow: 10px 5px 10px 1px black;
+
+}
+
+.cont-2{
+	height: 300px;
+	width: 80%;
+	margin: 10px 0px 0px 0px;
+	box-shadow: 10px 5px 10px 0px black;
+
+}
+
+.cont-3{
+	height: 300px;
+	width: 80%;
+	margin: 10px 0px 0px 70px;
+	box-shadow: 10px 5px 10px 0px black;
+
+}
+
+.cont-4{
+	height: 300px;
+	width: 80%;
+	margin: 10px 0px 0px 0px;
+	box-shadow: 10px 5px 10px 0px black;
+
+}
+
+.foto{
+	width: 150px;
+	border-radius: 10px;
+	margin: -30px 0px 0px 100px;
+}
+
+.tamaños{
+	 width: 60%;
+	 height: 10px;
+	 margin: 0px 0px 0px -50px;
+
+}
+
+.nom{
+	font-size: 17px;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	color: white;
+	margin: 10px;
+	width: 300px;
+}
+
+.desc{
+	font-size: 13px;
+	font-family: Bahnschrift;
+	color: white;
+	margin: 10px;
+	width: 300px;
+}
+
+footer{
+	width: 100%;
+	height: 25px;
+	background: #339EA2;
+}
+
+.copy{
+	font-family: Bahnschrift;
+	margin: 0px 0px 0px 230px;
+}
+
+}
+
+
+@media (max-width: 600px){
+
+.iconos{
+	grid-template-columns: repeat(4, 1fr);
+ 	gap: 15px;
+ 	display: grid;
+ 	width: 20%;
+ 	float: left;
+}
+
+.SOBRE{
+	width: 100%;
+	height: 200px;
+	background: #090A28;
+	margin: 300px 0px 0px 0px;
+	grid-template-columns: repeat(2, 1fr);
+ 	gap: 0px;
+ 	display: grid;
+}
+
+	.section-2{
+	width: 100%;
+	height: 845px;
+	background: #236E71;
+	margin-top: 30px;
+
+}
+	.descripcion{
+		grid-template-columns: repeat(1, 1fr);
+	 	gap: 0px;
+	 	display: grid;
+	}
+
+
+
+
+	.cont-1{
+	height: 200px;
+	width: 80%;
+	margin: 10px 0px 0px 40px;
+	box-shadow: 10px 5px 10px 1px black;
+
+}
+
+.cont-2{
+	height: 200px;
+	width: 80%;
+	margin: 10px 0px 0px 40px;
+	box-shadow: 10px 5px 10px 0px black;
+
+}
+
+.cont-3{
+	height: 200px;
+	width: 80%;
+	margin: 10px 0px 0px 40px;
+	box-shadow: 10px 5px 10px 0px black;
+
+}
+
+.cont-4{
+	height: 200px;
+	width: 80%;
+	margin: 10px 0px 0px 40px;
+	box-shadow: 10px 5px 10px 0px black;
+
+}
+
+.foto{
+	width: 100px;
+	border-radius: 10px;
+	margin: -30px 0px 0px 50px;
+}
+
+.tamaños{
+	 width: 60%;
+	 height: 10px;
+	 margin: 0px 0px 0px -25px;
+
+}
+
+.nom{
+	font-size: 13px;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	color: white;
+	margin: 10px;
+	width: 180px;
+}
+
+.desc{
+	font-size: 11px;
+	font-family: Bahnschrift;
+	color: white;
+	margin: 10px;
+	width: 170px;
+}
+
+footer{
+	width: 100%;
+	height: 25px;
+	background: #339EA2;
+}
+
+.copy{
+	font-family: Bahnschrift;
+	margin: 0px 0px 0px 30px;
+}
+
+.p{
+	color: white;
+	font-family: Bahnschrift;
+	font-size: 15px;
+	margin: 10px 35px 0px 25px;
+}
+
+.article-inicio{
+	width: 80%;
+	height: 200px;
+	position: relative;
+	top: 150px;
+	left: 50px;
+}
+
+.tecnico{
+	color: white;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.ign{
+	color: white;
+	font-family: Bahnschrift;
+	font-size: 25px;
+}
+
+
+}

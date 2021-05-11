@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../img/FONDO.svg");
+}
+
+section{
+	width: 50%;
+	height: 930px;
+	margin: 150px 0px 0px 400px;
+	background: white;
+	display: grid;
+  	grid-template-columns: repeat(2, 1fr);
+  	gap: 10px;
+  	box-shadow: 0px 5px 50px 5px black;
+}
+
+.regre{
+	color: white;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 1100px;
+	margin-top: 35px;
+	box-shadow: 0px 5px 50px 5px black;
+	border-radius: 10px 0px 0px 10px;
+	cursor: pointer;
+}
+
+.regresar{
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.regre:hover{
+	color: black;
+	background: white;
+}
+
+.article-1{
+	background: #EEC37F;
+	width: 75%;
+	height: 850px;
+	margin: 50px 0px 0px 50px;
+	border-radius: 400px;
+}
+
+.img{
+	width: 100%;
+	height: 200px;
+}
+
+.foto{
+	width: 100%;
+}
+
+.article-2{
+	width: 95%;
+	height: 800px;
+	margin: 50px 0px 0px -20px;
+}
+
+/*--------------------------------------*/
+
+.center{
+	margin-left: 20px; 
+	width: 80%;
+	margin-top: 20px; 
+}
+
+.div1{
+	display: grid;
+  	grid-template-columns: repeat(1, 1fr);
+  	gap: 0px;
+  	margin-left: 2px;
+  	margin-top: 20px; 
+}
+
+.nombre{
+	color: white;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	width: 100%;
+	font-size: 35px;
+}
+
+.h1{
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+	font-family: Bahnschrift;
+	width: 80%;
+	margin-left: 20px;
+}
+
+.h3{
+	color: black;
+	font-size: 17px;
+	font-family: Bahnschrift;
+	width: 60%;
+	margin-left: 20px;
+}
+
+.cont{
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: Bahnschrift;
+	box-shadow: 0px 2px 0px 0px white;
+	width: 55%;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/*------------------------------------*/
+
+.div-2{
+	margin: 20px;
+	font-family: Bahnschrift;
+}
+
+.titu{
+	color: #EEC37F;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 20px;
+	width: 55%;
+	box-shadow: 0px 2px 0px 0px #EEC37F;
+}
+
+.sub-titu{
+	font-family: Bahnschrift;
+	margin-top: 15px;
+	margin-left: 20px;
+	color: #EEC37F;
+}
+
+.lar{
+	width: 68%;
+}
+
+.dividir{
+	display: grid;
+  	grid-template-columns: repeat(2, 1fr);
+  	gap: 0px;
+}
+
+.eee{
+	color: #EEC37F;
+}
+
+footer{
+	height: 100px;
+}
+

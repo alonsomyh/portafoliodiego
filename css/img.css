@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../img/FONDO.svg");
+}
+
+.titu{
+	margin-left: 555px;
+	box-shadow: 0px 2px 0px 0px white;
+	width: 30%;
+}
+
+h1{
+	color: white;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-size: 50px;
+	margin-left: 100px;
+	margin-top: 150px;
+}
+
+section{
+	width: 80%;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+article{
+	display: grid;
+  	grid-template-columns: repeat(4, 1fr);
+  	gap: 10px;
+}
+
+.videos{
+	margin-left: -30px;
+}
+
+.imagen{
+	width: 100%;
+}
+
+/*------------------------------------*/
+
+.regre{
+	color: white;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 1100px;
+	margin-top: 15px;
+	box-shadow: 0px 5px 50px 5px black;
+	border-radius: 10px 0px 0px 10px;
+	cursor: pointer;
+}
+
+.regresar{
+	padding: 3px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.muestra:hover{
+	color: black;
+	background: white;
+}
+
+
+
+footer{
+	height: 100px;
+}
